@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Foxboro DCS操作员行为记录的配置与查看方法</title>
+      <link href="/2022/03/20/foxboro-dcs-cao-zuo-yuan-xing-wei-ji-lu-de-pei-zhi-yu-cha-kan-fang-fa/"/>
+      <url>/2022/03/20/foxboro-dcs-cao-zuo-yuan-xing-wei-ji-lu-de-pei-zhi-yu-cha-kan-fang-fa/</url>
+      
+        <content type="html"><![CDATA[<h1 id="foxboro-dcs操作员行为记录的配置与查看方法"><a class="markdownIt-Anchor" href="#foxboro-dcs操作员行为记录的配置与查看方法">#</a> Foxboro DCS 操作员行为记录的配置与查看方法</h1><h2 id="一-设置操作员行为记录"><a class="markdownIt-Anchor" href="#一-设置操作员行为记录">#</a> ** 一、设置操作员行为记录：   **</h2><p>====</p><h3 id="1-configoperactjournal中的historian-log中选中-enable并点击historian选中所见历史库名需要在所有站做"><a class="markdownIt-Anchor" href="#1-configoperactjournal中的historian-log中选中-enable并点击historian选中所见历史库名需要在所有站做">#</a> 1、Config&gt;OperActjournal 中的 Historian Log 中选中 enable, 并点击 historian，选中所见历史库名（需要在所有站做）。</h3><h3 id="2-修改文件doptaimexamplesmessagesinp把这里的hist01替换成历史库名如已是则不用替换"><a class="markdownIt-Anchor" href="#2-修改文件doptaimexamplesmessagesinp把这里的hist01替换成历史库名如已是则不用替换">#</a> 2、修改文件，D：\opt\aim\examples\messages.inp, 把这里的 hist01 替换成历史库名，如已是，则不用替换。</h3><h3 id="3-在顶部菜单configaimhistorian选中tools选择batch-configurator"><a class="markdownIt-Anchor" href="#3-在顶部菜单configaimhistorian选中tools选择batch-configurator">#</a> 3、在顶部菜单 Config&gt;AimHistorian，选中 Tools, 选择 Batch Configurator 。</h3><h3 id="4-点击get-file-name-and-start-batch-configuration按钮"><a class="markdownIt-Anchor" href="#4-点击get-file-name-and-start-batch-configuration按钮">#</a> 4、点击 Get File Name and Start Batch Configuration 按钮 。</h3><h3 id="5-选择doptaimexamplesmessagesinp文件然后退出"><a class="markdownIt-Anchor" href="#5-选择doptaimexamplesmessagesinp文件然后退出">#</a> 5、选择 D：\opt\aim\examples\messages.inp 文件然后退出 。</h3><h2 id="二-查看操作员行为记录"><a class="markdownIt-Anchor" href="#二-查看操作员行为记录">#</a> ** 二、查看操作员行为记录：  **</h2><p>====</p><h3 id="1-看aim-datalinkhistorian-browser首先设定时间settings再选择messageopraction"><a class="markdownIt-Anchor" href="#1-看aim-datalinkhistorian-browser首先设定时间settings再选择messageopraction">#</a> 1、看 AIM Datalink—&gt;Historian Browser，首先设定时间 Settings，再选择 Message—&gt;Opraction。</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> FOXBORO DCS教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> FOXBORO </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo-theme-matery 主题使用方法</title>
       <link href="/2022/03/03/matter/"/>
       <url>/2022/03/03/matter/</url>
